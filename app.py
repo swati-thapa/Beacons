@@ -42,4 +42,4 @@ def predict_api():
     return jsonify(output)
 '''
 if __name__ == "__main__":
-    app.run(port=5006, debug=True)
+    app.run(debug=True)
